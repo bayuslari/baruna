@@ -260,4 +260,7 @@ footer {
 .footer__bottom {
     padding: 10px 0;
     background-color: $darkblue;
+    a:hover {
+    	color: $blue;
+    }
 }

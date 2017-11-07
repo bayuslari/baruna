@@ -176,5 +176,7 @@ footer {
 .footer__bottom {
   padding: 10px 0;
   background-color: #0776ad; }
+  .footer__bottom a:hover {
+    color: #01bfff; }
 
 /*# sourceMappingURL=style.css.map */
