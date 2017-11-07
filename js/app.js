@@ -11,16 +11,29 @@
         // ==============================================================================================
 
         init: function($) {
-            app.menuToggle();
-
+            app.owlSlider();
         },
 
         // ======================================================================
         // Your function here
         // * Don't forget to use proper function name to describes your function
         // ======================================================================
-        menuToggle: function() {
-           
+        owlSlider: function() {
+            $('.testi__slider').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                navText: ["<img src='img/icons/back.svg'>","<img src='img/icons/next.svg'>"],
+                autoplay: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    1000:{
+                        items:2
+                    }
+                }
+            })
         },
   
 

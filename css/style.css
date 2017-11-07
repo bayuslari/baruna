@@ -12,11 +12,27 @@
  *
  */
 html {
-  font-size: 14px;
+  font-size: 15px;
   overflow-x: hidden; }
+
+body {
+  font-family: 'Brandon Grotesque';
+  font-weight: 500;
+  letter-spacing: .1px; }
 
 img {
   max-width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500; }
+
+p {
+  font-weight: 300; }
 
 /* Colours */
 /* Section */
@@ -24,10 +40,10 @@ h3.section-title {
   margin-bottom: 60px; }
 
 .section__content {
-  padding: 60px 0; }
+  padding: 80px 0; }
 
 .section--blue {
-  background-color: #039be5;
+  background-color: #01bfff;
   color: #ffffff; }
 
 .section--grey {
@@ -45,8 +61,13 @@ h3.section-title {
 
 /* Carousel */
 .carousel-item img {
-  height: 450px;
+  height: 500px;
   object-fit: cover; }
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 50px;
+  padding: 20px; }
 
 /* Advantage */
 .advantage__item {
@@ -77,12 +98,12 @@ h3.section-title {
   padding: 10px;
   text-align: center;
   z-index: 1;
-  background-color: #039be5;
+  background-color: #01bfff;
   color: #ffffff; }
 
 .section--blue .advantage__title {
   background: #ffffff !important;
-  color: #039be5 !important; }
+  color: #01bfff !important; }
 
 .advantage__text {
   position: absolute;
@@ -95,9 +116,59 @@ h3.section-title {
   transition: all .3s ease;
   text-align: center; }
 
+/* Service */
+.service__item {
+  text-align: center;
+  position: relative; }
+  .service__item img {
+    height: 100px;
+    width: auto;
+    transition: all .3s ease; }
+  .service__item:hover img {
+    margin: -5px 0 5px; }
+  .service__item a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .3s ease; }
+  .service__item:hover {
+    color: #01bfff; }
+
+/* Testimoni */
+.testi__img {
+  border-radius: 50%; }
+
+.testi__slider {
+  padding-left: 60px;
+  padding-right: 60px; }
+  .testi__slider .owl-nav {
+    display: block !important; }
+  .testi__slider .owl-prev img,
+  .testi__slider .owl-next img {
+    height: 20px; }
+  .testi__slider .owl-prev,
+  .testi__slider .owl-next {
+    background: transparent !important;
+    transition: all .3s ease; }
+    .testi__slider .owl-prev:hover,
+    .testi__slider .owl-next:hover {
+      background: #f5f5f5 !important; }
+  .testi__slider .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0; }
+  .testi__slider .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0; }
+
 /* Footer */
 footer {
-  background-color: #039be5;
+  background-color: #01bfff;
   color: #ffffff; }
   footer a {
     color: #ffffff; }
