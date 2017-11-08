@@ -55,9 +55,11 @@ h3.section-title {
  *
  */
 /* Nav */
-.navbar-brand img {
-  height: 50px;
-  object-fit: contain; }
+.navbar-brand {
+  padding: 0; }
+  .navbar-brand img {
+    height: 80px;
+    object-fit: contain; }
 
 /* Carousel */
 .carousel-item img {
@@ -172,6 +174,8 @@ footer {
   color: #ffffff; }
   footer a {
     color: #ffffff; }
+  footer .navbar-brand img {
+    height: 100px; }
 
 .footer__bottom {
   padding: 10px 0;

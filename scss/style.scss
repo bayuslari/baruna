@@ -87,8 +87,9 @@ h3.section-title {
 /* Nav */
 
 .navbar-brand {
+	padding: 0;
     img {
-        height: 50px;
+        height: 80px;
         object-fit: contain;
     }
 }
@@ -243,10 +244,6 @@ h3.section-title {
 }
 
 
-
-
-
-
 /* Footer */
 
 footer {
@@ -254,6 +251,9 @@ footer {
     color: $white;
     a {
         color: $white;
+    }
+    .navbar-brand img {
+    	height: 100px;
     }
 }
 
