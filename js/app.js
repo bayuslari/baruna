@@ -34,6 +34,23 @@
                     }
                 }
             })
+
+            $('.portfolio__slider').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                dots: false,
+                navText: ["<img src='img/icons/back.svg'>","<img src='img/icons/next.svg'>"],
+                autoplay: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            })
         },
   
 
