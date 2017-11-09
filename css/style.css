@@ -34,6 +34,10 @@ h6 {
 p {
   font-weight: 300; }
 
+a {
+  transition: all .3s ease;
+  text-decoration: none; }
+
 /* Colours */
 /* Section */
 h3.section-title {
@@ -217,10 +221,31 @@ h3.section-title {
 footer {
   background-color: #446CB3;
   color: #ffffff; }
-  footer a {
-    color: #ffffff; }
   footer .navbar-brand img {
     height: 100px; }
+  footer a {
+    opacity: .7;
+    color: #ffffff !important; }
+    footer a:hover {
+      opacity: 1; }
+
+.list-menu-footer {
+  margin-top: 20px; }
+  .list-menu-footer .navbar-nav {
+    flex-direction: row;
+    justify-content: center; }
+  .list-menu-footer .nav-link {
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 0 10px; }
+
+.footer__top {
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  .footer__top .navbar-brand {
+    margin: 0 auto 10px;
+    display: block;
+    text-align: center; }
 
 .footer__bottom {
   padding: 10px 0;
